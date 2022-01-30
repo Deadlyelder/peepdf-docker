@@ -1,6 +1,7 @@
 FROM debian:10-slim
 
 LABEL MAINTAINER=sghatpande.eu
+LABEL org.opencontainers.image.source="https://github.com/Deadlyelder/peepdf-docker.git"
 
 RUN apt-get update && apt-get install -y \
 	python2.7 \
